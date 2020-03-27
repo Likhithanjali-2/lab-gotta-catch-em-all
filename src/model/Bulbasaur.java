@@ -1,5 +1,35 @@
 package model;
 
+public class Bulbasaur extends Pokemon{
+	String characteristics, type,evolution,baseExp;
+	public Bulbasaur(String pokemonName, int pokemonNumber) {
+		super.pokemonName="Bulbasaur";
+		super.pokemonNumber = 001;	
+		this.characteristics = "Bulbasaur is a Grass/Poison-type Pokémon introduced in Generation I. It evolves into Ivysaur starting at level 16. It is one of the three Starter Pokémon in the Kanto region.";
+		this.type = "POISON";
+		this.evolution = "IVYSAUR";
+		this.baseExp = "64" ;
+	}
+	public String pokemonName(){
+		return this.pokemonName;
+	}
+	public int pokemonNumber(){
+		return this.pokemonNumber;
+	}
+	
+	public String characteristics(){
+		return this.characteristics;
+	}
+	public String type(){
+		return this.type;
+	}
+	public String evolution(){
+		return this.evolution;
+	}
+	public String baseExp(){
+		return this.baseExp;
+	}
+}
 
 //PROGRESSION - 2 
 //Go to JAVA Resouces - src/model and create a child class called Bulbasaur inside the model package with the following arguments

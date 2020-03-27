@@ -1,5 +1,34 @@
 package model;
 
+public class Pikachu extends Pokemon{
+	String characteristics, type,evolution,baseExp;
+	public Pikachu(String pokemonName, int pokemonNumber) {
+		super.pokemonName = "Pikachu";
+		super.pokemonNumber = 25;
+		this.characteristics = "Pikachu is an Electric-type Pokémon, which was introduced in Generation I. Over the years, Pikachu has become so popular that it serves as the Pokémon franchise mascot.";
+		this.type = "ELECTRIC";
+		this.evolution = "RAICHU";
+		this.baseExp = "112"; 
+	}
+	public String pokemonName(){
+		return this.pokemonName;
+	}
+	public int pokemonNumber(){
+		return this.pokemonNumber;
+	}
+	public String characteristics(){
+		return this.characteristics;
+	}
+	public String type(){
+		return this.type;
+	}
+	public String evolution(){
+		return this.evolution;
+	}
+	public String baseExp(){
+		return this.baseExp;
+	}
+}
 /*
  * PROGRESSION - 6 
  * Go to JAVA Resouces - src/model and create a child class
