@@ -5,9 +5,9 @@ public class Mew extends Pokemon{
 	public Mew(String pokemonName, int pokemonNumber) {
 		super.pokemonName = "Mew";
 		super.pokemonNumber = 151;
-		this.characteristics = "Mew is a Psychic-type Mythical Pokémon introduced in Generation I. this.Mew is notable for its unique ability to learn every Technical Machine, Technical Record & Hidden Machine.";
+		this.characteristics = "Mew is a Psychic-type Mythical Pokémon introduced in Generation I. Mew is notable for its unique ability to learn every Technical Machine, Technical Record & Hidden Machine.";
 		this.type = "PSYCHIC";
-		this.evolution = " NONE ";
+		this.evolution = "   NONE  ";
 		this.baseExp = "64";	
 	}
 	public String pokemonName(){
